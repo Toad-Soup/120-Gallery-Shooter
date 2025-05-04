@@ -1,12 +1,12 @@
-**Bullet Time**
+**CMPM 120 Gallery Shooter Game**
 
-Multiple examples of how to implement gallery shooter style bullet shooting in Phaser 3
-without using Arcade Physics.
+this is the gallery shotoer game made for CMPM 120
 
-* Single bullet
-* Variable size array of bullet sprites
-* Fixed size array of bullet sprites
-* Group object for bullets
-* Using a sprite subclass for the player avatar and bullets, also uses group objects
+
+* multiple duck "enemies"
+* arrays to hold bullets, assets, and ducks, to create better animations and collision detection
+* limit of 3 bullets per "reload" before the user has to wait for more
+* time limit of 30 seconds to score as many points as possible
+* compromises had to be made in gameplay and design areas in order to meet requirements, such as player emmited objects
 
 Uses [Kenny Assets](https://kenney.nl/assets/), with gratitude.
