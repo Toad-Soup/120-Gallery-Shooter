@@ -202,11 +202,11 @@ class round1 extends Phaser.Scene {
         this.playerSpeed = 3;
         this.bulletSpeed = 10;
 
-        my.text.ammo = this.add.text(80, 540, "Ammo:", {
+       /* my.text.ammo = this.add.text(80, 540, "Ammo:", {
             fontFamily: 'Times, serif',
             fontSise: 30
         });
-
+*/
         // Put score on screen
         my.text.score = this.add.text(800, 10, "Score " + this.myScore, {
             fontFamily: 'times, serif',
