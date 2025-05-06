@@ -77,7 +77,7 @@ class end extends Phaser.Scene {
         //if the user presses R, reset the while thing
         // Check for bullet being fired
         if (Phaser.Input.Keyboard.JustDown(this.nextScene)) {
-            this.scene.start("round1");
+            this.scene.start("start");
         }
         
     }

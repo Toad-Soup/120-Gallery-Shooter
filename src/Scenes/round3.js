@@ -35,7 +35,7 @@ class round3 extends Phaser.Scene {
 
 
         this.my.sprite.bullet = [];   
-;        // Number of update() calls to wait before making a new bullet
+        // Number of update() calls to wait before making a new bullet
         this.bulletCooldownCounter = 0;
 
         this.my.sprite.water = [];

@@ -22,7 +22,7 @@ let config = {
     fps: { forceSetTimeOut: true, target: 60 },   // ensure consistent timing across machines
     width: 1000,
     height: 600,
-    scene: [round1, round2, round3, end]
+    scene: [start,round1, round2, round3, end]
 }
 
 
